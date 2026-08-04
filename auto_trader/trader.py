@@ -111,6 +111,13 @@ def run_entries(client: TradingClient, allow_buys: bool) -> list[str]:
     if any(l["entry_date"] == entry.isoformat() for l in lots):
         return ["Buys skipped (today's tranche already placed)."]
 
+    # The notebook writes a valid but EMPTY signal file when there is nothing to
+    # score (see the live-scoring guard in py_study_day10.ipynb). Say so plainly
+    # rather than reporting "0 checked, only 0/3 lots placed".
+    if len(sig) == 0:
+        return [f"No signals in signals_{asof}.csv — signal file is empty "
+                f"(nothing scored today) — nothing to buy."]
+
     # Single walk down the ranking until TOP_N lots are actually FILLED. A name
     # rejected by the screen, priced above the budget, or failing at the broker
     # does NOT shorten the tranche — the walk continues to the next candidate.

@@ -1,5 +1,9 @@
 """Approximate AAOIFI-style Shariah screen using free yfinance fundamentals.
 
+Identical to the de Prado book's screen — deliberately so. Keeping both books
+in the same compliant universe means the strategy comparison isolates the
+*strategy*, not the investable universe.
+
 Two layers:
   1. Business screen — industry/sector keyword exclusions.
   2. Financial ratios — interest-bearing debt and cash+interest-bearing
@@ -12,12 +16,22 @@ not a certified screening. Missing data => treated as NOT compliant
 (Zoya, Musaffa) or a certified universe (SPUS/HLAL holdings).
 """
 import logging
+import time
 
 import yfinance as yf
 
 import config
 
 log = logging.getLogger("shariah")
+
+# Yahoo rate-limits `.info` hard. When it does, it does NOT raise — it returns an
+# empty/partial dict, which the ratio tests below read as "no market cap data" and
+# reject as non-compliant. That silently threw away perfectly good names (CRL and
+# BBY were rejected this way on 2026-07-30) and pushed the book down the ranking
+# into picks the model never chose. Retry before believing the data is missing.
+_RETRIES = 3
+_PAUSE_S = 2.0
+_CORE_FIELDS = ("marketCap", "totalDebt", "totalCash")
 
 # Industry/sector substrings (lowercase) that fail the business screen.
 HARAM_KEYWORDS = [
@@ -46,20 +60,62 @@ _cache: dict[str, tuple[bool, str]] = {}
 
 
 def is_compliant(ticker: str) -> tuple[bool, str]:
-    """Return (compliant, reason). Conservative on missing data."""
+    """Return (compliant, reason). Conservative on missing data.
+
+    Transient failures are NOT cached — a rate-limited lookup must not poison the
+    verdict for the rest of the run.
+    """
     if ticker in _cache:
         return _cache[ticker]
-    result = _screen(ticker)
-    _cache[ticker] = result
+    result, transient = _screen(ticker)
+    if not transient:
+        _cache[ticker] = result
     return result
 
 
-def _screen(ticker: str) -> tuple[bool, str]:
-    try:
-        info = yf.Ticker(ticker.replace(".", "-")).info or {}
-    except Exception as e:
-        return False, f"no data ({e.__class__.__name__})"
+def _fetch_info(ticker: str) -> dict | None:
+    """`.info` with backoff. None means "genuinely could not fetch", as distinct
+    from "fetched, and the company really has no such field"."""
+    sym = ticker.replace(".", "-")
+    partial = None
+    for attempt in range(_RETRIES):
+        try:
+            info = yf.Ticker(sym).info or {}
+            # A complete payload has the fundamentals. Throttling often returns
+            # the *quote* half (sector/industry) with the financials missing —
+            # which reads as "no market cap data" and looks like a compliance
+            # failure. AMD and MU were rejected that way on 2026-08-03. Keep
+            # retrying for the full payload; only fall back to a partial one on
+            # the last attempt, when it really may just be a sparse listing.
+            if all(info.get(f) is not None for f in _CORE_FIELDS):
+                return info
+            if info.get("sector") or info.get("industry"):
+                partial = info
+        except Exception as e:
+            log.warning("%s: .info raised %s (attempt %d/%d)",
+                        ticker, type(e).__name__, attempt + 1, _RETRIES)
+        if attempt < _RETRIES - 1:
+            time.sleep(_PAUSE_S * (2 ** attempt))
+    if partial is not None:
+        log.warning("%s: only a partial payload after %d tries — screening on "
+                    "what we have", ticker, _RETRIES)
+    return partial
 
+
+def _screen(ticker: str) -> tuple[tuple[bool, str], bool]:
+    """Returns ((compliant, reason), transient_failure)."""
+    info = _fetch_info(ticker)
+    if info is None:
+        # Conservative (still not bought) but flagged, so the Telegram message
+        # says "rate limited" rather than implying the company failed the screen.
+        return (False, f"⏳ data unavailable after {_RETRIES} tries "
+                       f"(rate limited?) — not a compliance failure"), True
+
+    ok, reason = _screen_info(info)
+    return (ok, reason), False
+
+
+def _screen_info(info: dict) -> tuple[bool, str]:
     sector = str(info.get("sector", "")).lower()
     industry = str(info.get("industry", "")).lower()
     if not sector and not industry:

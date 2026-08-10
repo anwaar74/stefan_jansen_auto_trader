@@ -1,23 +1,5 @@
 [
   {
-    "ticker": "AMAT",
-    "qty": 1,
-    "entry_date": "2026-08-03",
-    "exit_after": "2026-08-10"
-  },
-  {
-    "ticker": "STX",
-    "qty": 1,
-    "entry_date": "2026-08-03",
-    "exit_after": "2026-08-10"
-  },
-  {
-    "ticker": "TSLA",
-    "qty": 3,
-    "entry_date": "2026-08-03",
-    "exit_after": "2026-08-10"
-  },
-  {
     "ticker": "CHRW",
     "qty": 6,
     "entry_date": "2026-08-05",
@@ -70,5 +52,23 @@
     "qty": 6,
     "entry_date": "2026-08-07",
     "exit_after": "2026-08-14"
+  },
+  {
+    "ticker": "AMD",
+    "qty": 2,
+    "entry_date": "2026-08-10",
+    "exit_after": "2026-08-17"
+  },
+  {
+    "ticker": "ANET",
+    "qty": 5,
+    "entry_date": "2026-08-10",
+    "exit_after": "2026-08-17"
+  },
+  {
+    "ticker": "CHRW",
+    "qty": 6,
+    "entry_date": "2026-08-10",
+    "exit_after": "2026-08-17"
   }
 ]

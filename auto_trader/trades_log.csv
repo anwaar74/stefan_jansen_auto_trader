@@ -17,3 +17,6 @@ date,action,ticker,qty,order_id,status,note
 2026-08-10,BUY,AMD,2,7b9ec2d9-72a2-4fb4-9a0c-413412040286,pending_new,top3 asof 20260807
 2026-08-10,BUY,ANET,5,3f9f30d0-11ed-41f8-ad33-1664e8de5711,pending_new,top3 asof 20260807
 2026-08-10,BUY,CHRW,6,23689ebc-5998-4be5-8d73-16ab9cb76028,pending_new,top3 asof 20260807
+2026-08-11,BUY,TTD,74,4fcad83d-0f01-4676-9e58-0ab5bf22fac3,pending_new,top3 asof 20260810
+2026-08-11,BUY,CHRW,6,d0eebf79-2004-4ffd-8080-800f7656e98f,pending_new,top3 asof 20260810
+2026-08-11,BUY,CIEN,2,5ef01831-05f1-4c2f-bc4d-beec732d9a8a,pending_new,top3 asof 20260810

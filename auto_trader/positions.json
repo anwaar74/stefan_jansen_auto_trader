@@ -1,23 +1,5 @@
 [
   {
-    "ticker": "NOW",
-    "qty": 8,
-    "entry_date": "2026-08-06",
-    "exit_after": "2026-08-13"
-  },
-  {
-    "ticker": "STX",
-    "qty": 1,
-    "entry_date": "2026-08-06",
-    "exit_after": "2026-08-13"
-  },
-  {
-    "ticker": "WDAY",
-    "qty": 5,
-    "entry_date": "2026-08-06",
-    "exit_after": "2026-08-13"
-  },
-  {
     "ticker": "AMD",
     "qty": 2,
     "entry_date": "2026-08-07",
@@ -88,5 +70,23 @@
     "qty": 1,
     "entry_date": "2026-08-12",
     "exit_after": "2026-08-19"
+  },
+  {
+    "ticker": "TTD",
+    "qty": 74,
+    "entry_date": "2026-08-13",
+    "exit_after": "2026-08-20"
+  },
+  {
+    "ticker": "CHRW",
+    "qty": 6,
+    "entry_date": "2026-08-13",
+    "exit_after": "2026-08-20"
+  },
+  {
+    "ticker": "EPAM",
+    "qty": 9,
+    "entry_date": "2026-08-13",
+    "exit_after": "2026-08-20"
   }
 ]

@@ -2,24 +2,6 @@
   {
     "ticker": "AMD",
     "qty": 2,
-    "entry_date": "2026-08-07",
-    "exit_after": "2026-08-14"
-  },
-  {
-    "ticker": "AMAT",
-    "qty": 1,
-    "entry_date": "2026-08-07",
-    "exit_after": "2026-08-14"
-  },
-  {
-    "ticker": "FTNT",
-    "qty": 6,
-    "entry_date": "2026-08-07",
-    "exit_after": "2026-08-14"
-  },
-  {
-    "ticker": "AMD",
-    "qty": 2,
     "entry_date": "2026-08-10",
     "exit_after": "2026-08-17"
   },
@@ -88,5 +70,23 @@
     "qty": 9,
     "entry_date": "2026-08-13",
     "exit_after": "2026-08-20"
+  },
+  {
+    "ticker": "TER",
+    "qty": 2,
+    "entry_date": "2026-08-14",
+    "exit_after": "2026-08-21"
+  },
+  {
+    "ticker": "EPAM",
+    "qty": 9,
+    "entry_date": "2026-08-14",
+    "exit_after": "2026-08-21"
+  },
+  {
+    "ticker": "STX",
+    "qty": 1,
+    "entry_date": "2026-08-14",
+    "exit_after": "2026-08-21"
   }
 ]

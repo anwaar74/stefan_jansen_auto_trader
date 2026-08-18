@@ -1,23 +1,5 @@
 [
   {
-    "ticker": "TTD",
-    "qty": 74,
-    "entry_date": "2026-08-11",
-    "exit_after": "2026-08-18"
-  },
-  {
-    "ticker": "CHRW",
-    "qty": 6,
-    "entry_date": "2026-08-11",
-    "exit_after": "2026-08-18"
-  },
-  {
-    "ticker": "CIEN",
-    "qty": 2,
-    "entry_date": "2026-08-11",
-    "exit_after": "2026-08-18"
-  },
-  {
     "ticker": "CIEN",
     "qty": 2,
     "entry_date": "2026-08-12",

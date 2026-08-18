@@ -1,0 +1,2 @@
+ticker,rank,asof,variant,score,pct_rank,quintile,target_weight_new_tranche,last_adj_close,adv20_dollars,drivers
+MNST,1,2026-08-17,beta_hedged,0.6472362994183339,1.0,5,0.2,45.52000045776367,505015277.0,atr_pct(+0.033) | vol_63d(+0.026) | vol_10d(+0.023)

@@ -1,23 +1,5 @@
 [
   {
-    "ticker": "CIEN",
-    "qty": 2,
-    "entry_date": "2026-08-12",
-    "exit_after": "2026-08-19"
-  },
-  {
-    "ticker": "AMD",
-    "qty": 2,
-    "entry_date": "2026-08-12",
-    "exit_after": "2026-08-19"
-  },
-  {
-    "ticker": "AMAT",
-    "qty": 1,
-    "entry_date": "2026-08-12",
-    "exit_after": "2026-08-19"
-  },
-  {
     "ticker": "TTD",
     "qty": 74,
     "entry_date": "2026-08-13",
@@ -70,5 +52,23 @@
     "qty": 9,
     "entry_date": "2026-08-17",
     "exit_after": "2026-08-24"
+  },
+  {
+    "ticker": "TTD",
+    "qty": 74,
+    "entry_date": "2026-08-19",
+    "exit_after": "2026-08-26"
+  },
+  {
+    "ticker": "STX",
+    "qty": 1,
+    "entry_date": "2026-08-19",
+    "exit_after": "2026-08-26"
+  },
+  {
+    "ticker": "TER",
+    "qty": 2,
+    "entry_date": "2026-08-19",
+    "exit_after": "2026-08-26"
   }
 ]

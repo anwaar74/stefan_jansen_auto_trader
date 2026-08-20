@@ -1,23 +1,5 @@
 [
   {
-    "ticker": "TTD",
-    "qty": 74,
-    "entry_date": "2026-08-13",
-    "exit_after": "2026-08-20"
-  },
-  {
-    "ticker": "CHRW",
-    "qty": 6,
-    "entry_date": "2026-08-13",
-    "exit_after": "2026-08-20"
-  },
-  {
-    "ticker": "EPAM",
-    "qty": 9,
-    "entry_date": "2026-08-13",
-    "exit_after": "2026-08-20"
-  },
-  {
     "ticker": "TER",
     "qty": 2,
     "entry_date": "2026-08-14",
@@ -70,5 +52,23 @@
     "qty": 2,
     "entry_date": "2026-08-19",
     "exit_after": "2026-08-26"
+  },
+  {
+    "ticker": "ANET",
+    "qty": 5,
+    "entry_date": "2026-08-20",
+    "exit_after": "2026-08-27"
+  },
+  {
+    "ticker": "CIEN",
+    "qty": 2,
+    "entry_date": "2026-08-20",
+    "exit_after": "2026-08-27"
+  },
+  {
+    "ticker": "TER",
+    "qty": 2,
+    "entry_date": "2026-08-20",
+    "exit_after": "2026-08-27"
   }
 ]

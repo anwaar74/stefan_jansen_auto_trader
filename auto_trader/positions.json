@@ -1,23 +1,5 @@
 [
   {
-    "ticker": "TER",
-    "qty": 2,
-    "entry_date": "2026-08-14",
-    "exit_after": "2026-08-21"
-  },
-  {
-    "ticker": "EPAM",
-    "qty": 9,
-    "entry_date": "2026-08-14",
-    "exit_after": "2026-08-21"
-  },
-  {
-    "ticker": "STX",
-    "qty": 1,
-    "entry_date": "2026-08-14",
-    "exit_after": "2026-08-21"
-  },
-  {
     "ticker": "TTD",
     "qty": 70,
     "entry_date": "2026-08-17",
@@ -70,5 +52,23 @@
     "qty": 2,
     "entry_date": "2026-08-20",
     "exit_after": "2026-08-27"
+  },
+  {
+    "ticker": "TTD",
+    "qty": 75,
+    "entry_date": "2026-08-21",
+    "exit_after": "2026-08-28"
+  },
+  {
+    "ticker": "CIEN",
+    "qty": 2,
+    "entry_date": "2026-08-21",
+    "exit_after": "2026-08-28"
+  },
+  {
+    "ticker": "FSLR",
+    "qty": 4,
+    "entry_date": "2026-08-21",
+    "exit_after": "2026-08-28"
   }
 ]

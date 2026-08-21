@@ -59,3 +59,9 @@ date,action,ticker,qty,order_id,status,note
 2026-08-20,BUY,ANET,5,5a8ea747-4c23-4c39-a5c2-d275bbe95c25,pending_new,top3 asof 20260819
 2026-08-20,BUY,CIEN,2,bf4294ce-c649-4785-bce0-721af431bdbf,pending_new,top3 asof 20260819
 2026-08-20,BUY,TER,2,580fdf2e-8301-497f-8ba3-ec8fcc26dba2,pending_new,top3 asof 20260819
+2026-08-21,SELL,TER,2,ea445aa5-fcc8-49ee-835e-72cd9c5123fb,pending_new,exit lot from 2026-08-14
+2026-08-21,SELL,EPAM,9,9d1cde3e-72a2-4735-aa43-f28e095e2f55,pending_new,exit lot from 2026-08-14
+2026-08-21,SELL,STX,1,56f5fd2b-367b-4bc7-98ae-3ee35fe8b67d,pending_new,exit lot from 2026-08-14
+2026-08-21,BUY,TTD,75,a862b49c-ceaa-47c5-864f-30458c4eeaf9,pending_new,top3 asof 20260820
+2026-08-21,BUY,CIEN,2,f3830dee-e282-4e34-bd4a-0228cb050908,pending_new,top3 asof 20260820
+2026-08-21,BUY,FSLR,4,2f0eb8d0-e962-48ee-925e-6d07672276bd,pending_new,top3 asof 20260820

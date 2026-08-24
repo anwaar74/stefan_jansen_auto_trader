@@ -1,9 +1,9 @@
 {
-  "asof": "2026-08-20",
-  "staleness_days": 1,
+  "asof": "2026-08-21",
+  "staleness_days": 3,
   "stale": false,
   "variant": "beta_hedged",
-  "model_trees": 23,
+  "model_trees": 24,
   "model_degenerate": false,
   "universe": 200,
   "n_long": 39,
@@ -38,20 +38,20 @@
     "BETA_WINDOW": "126"
   },
   "data_quality": {
-    "run": "2026-08-21 09:33:20.524733",
+    "run": "2026-08-24 09:42:59.448752",
     "hard_failures": [],
     "warnings": [
       "2498 rows with nonpositive prices (excluded by clean filter)",
-      "5349 daily moves >|50%| \u2014 verify splits/corporate actions"
+      "5352 daily moves >|50%| \u2014 verify splits/corporate actions"
     ],
-    "rows": 2604274,
+    "rows": 2604497,
     "tickers": 1055,
     "date_min": "2008-06-02",
-    "date_max": "2026-08-20",
-    "staleness_days": 1,
+    "date_max": "2026-08-21",
+    "staleness_days": 3,
     "delisted_tickers": 752,
     "nonpositive_price_rows": 2498,
-    "extreme_moves_gt50pct": 5349
+    "extreme_moves_gt50pct": 5352
   },
   "health": {
     "winner": "beta_hedged",
@@ -64,7 +64,7 @@
     "winner_confirm_ann_excess": 0.01994100377716556,
     "top10_pnl_concentration": 0.1947333528438228,
     "extreme_returns_in_backtest": 0,
-    "data_staleness_days": 1,
+    "data_staleness_days": 3,
     "checks_passed": 5,
     "checks_total": 6
   }

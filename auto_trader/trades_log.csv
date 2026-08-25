@@ -71,3 +71,6 @@ date,action,ticker,qty,order_id,status,note
 2026-08-24,BUY,CIEN,2,4bda243d-e519-4c53-8e2e-181ad2f6f360,pending_new,top3 asof 20260821
 2026-08-24,BUY,FSLR,4,d0fad6bd-9d4c-42ab-9d1a-17652c5fde5a,pending_new,top3 asof 20260821
 2026-08-24,BUY,COHR,3,321bbf89-40a0-4d3b-aa35-77c8efc9b608,pending_new,top3 asof 20260821
+2026-08-25,BUY,CIEN,2,d6dd268e-b0b4-4c7b-b222-e902ea7796bd,pending_new,top3 asof 20260824
+2026-08-25,BUY,MU,1,33c83dda-1f84-4fda-8ef2-ff073b3256f7,pending_new,top3 asof 20260824
+2026-08-25,BUY,FSLR,4,bb8ad5a7-2fe8-4bdd-bbce-4c6a09b1c9bf,pending_new,top3 asof 20260824

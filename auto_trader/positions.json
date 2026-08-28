@@ -1,23 +1,5 @@
 [
   {
-    "ticker": "TTD",
-    "qty": 75,
-    "entry_date": "2026-08-21",
-    "exit_after": "2026-08-28"
-  },
-  {
-    "ticker": "CIEN",
-    "qty": 2,
-    "entry_date": "2026-08-21",
-    "exit_after": "2026-08-28"
-  },
-  {
-    "ticker": "FSLR",
-    "qty": 4,
-    "entry_date": "2026-08-21",
-    "exit_after": "2026-08-28"
-  },
-  {
     "ticker": "CIEN",
     "qty": 2,
     "entry_date": "2026-08-24",
@@ -88,5 +70,23 @@
     "qty": 4,
     "entry_date": "2026-08-27",
     "exit_after": "2026-09-03"
+  },
+  {
+    "ticker": "NTAP",
+    "qty": 5,
+    "entry_date": "2026-08-28",
+    "exit_after": "2026-09-04"
+  },
+  {
+    "ticker": "IT",
+    "qty": 5,
+    "entry_date": "2026-08-28",
+    "exit_after": "2026-09-04"
+  },
+  {
+    "ticker": "GEV",
+    "qty": 1,
+    "entry_date": "2026-08-28",
+    "exit_after": "2026-09-04"
   }
 ]

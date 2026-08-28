@@ -86,3 +86,9 @@ date,action,ticker,qty,order_id,status,note
 2026-08-27,BUY,NOW,7,389a4d29-7d15-4654-b5a2-d5aa8349aa3a,pending_new,top3 asof 20260826
 2026-08-27,BUY,NTAP,5,4c72d656-db29-46ef-ae4f-c3911adb37fe,pending_new,top3 asof 20260826
 2026-08-27,BUY,ANET,4,a8c9917c-dc07-4791-a89d-7a99c1c043db,pending_new,top3 asof 20260826
+2026-08-28,SELL,TTD,75,fb4db13b-c793-4be8-8f13-9500ef7b1c89,accepted,exit lot from 2026-08-21
+2026-08-28,SELL,CIEN,2,6b5ea648-25e6-40b6-ae57-f5b6d2ea4cb9,accepted,exit lot from 2026-08-21
+2026-08-28,SELL,FSLR,4,51205ff4-a5cb-43d3-a622-133dac9a4862,accepted,exit lot from 2026-08-21
+2026-08-28,BUY,NTAP,5,7d8c65f2-2f37-457e-8a80-ad38e57160cd,accepted,top3 asof 20260827
+2026-08-28,BUY,IT,5,ae0d5f21-928b-4e4f-9b14-c3274e1a4573,accepted,top3 asof 20260827
+2026-08-28,BUY,GEV,1,64881565-43f1-4722-9ffb-b0a87e49e3ec,accepted,top3 asof 20260827

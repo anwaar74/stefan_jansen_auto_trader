@@ -1,12 +1,12 @@
 {
-  "asof": "2026-08-28",
-  "staleness_days": 3,
+  "asof": "2026-08-31",
+  "staleness_days": 1,
   "stale": false,
   "variant": "beta_hedged",
-  "model_trees": 20,
-  "model_degenerate": true,
+  "model_trees": 25,
+  "model_degenerate": false,
   "universe": 200,
-  "n_long": 38,
+  "n_long": 40,
   "n_short": 0,
   "config": {
     "DATA_PATH": "raw_ohlcv.parquet",
@@ -38,17 +38,17 @@
     "BETA_WINDOW": "126"
   },
   "data_quality": {
-    "run": "2026-08-31 16:40:54.470480",
+    "run": "2026-09-01 13:54:57.453185",
     "hard_failures": [],
     "warnings": [
       "2498 rows with nonpositive prices (excluded by clean filter)",
       "5352 daily moves >|50%| \u2014 verify splits/corporate actions"
     ],
-    "rows": 2605548,
+    "rows": 2605758,
     "tickers": 1055,
     "date_min": "2008-06-02",
-    "date_max": "2026-08-28",
-    "staleness_days": 3,
+    "date_max": "2026-08-31",
+    "staleness_days": 1,
     "delisted_tickers": 752,
     "nonpositive_price_rows": 2498,
     "extreme_moves_gt50pct": 5352
@@ -64,7 +64,7 @@
     "winner_confirm_ann_excess": 0.01994100377716556,
     "top10_pnl_concentration": 0.1947333528438228,
     "extreme_returns_in_backtest": 0,
-    "data_staleness_days": 3,
+    "data_staleness_days": 1,
     "checks_passed": 5,
     "checks_total": 6
   }

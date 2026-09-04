@@ -116,3 +116,9 @@ date,action,ticker,qty,order_id,status,note
 2026-09-03,BUY,PANW,3,b5da2e9d-67dc-4a96-925f-f7b47eb8da13,pending_new,top3 asof 20260902
 2026-09-03,BUY,NEM,7,bad4b590-c78a-483c-b62b-72ae35378119,pending_new,top3 asof 20260902
 2026-09-03,BUY,ZBRA,2,1dafe0c4-ee6b-4ed2-a86f-3186274e70cf,pending_new,top3 asof 20260902
+2026-09-04,SELL,NTAP,5,f484d2cd-271f-4a37-8443-a6ee6676c0f0,pending_new,exit lot from 2026-08-28
+2026-09-04,SELL,IT,5,6b9f8974-1363-48a0-8f4b-2451c4245bc2,pending_new,exit lot from 2026-08-28
+2026-09-04,SELL,GEV,1,5d1258f1-1430-45fc-b32c-5a390ba79222,pending_new,exit lot from 2026-08-28
+2026-09-04,BUY,PANW,3,f5da62d7-a7dc-4569-a087-ffd81b107e78,pending_new,top3 asof 20260903
+2026-09-04,BUY,ANET,5,1bb5937b-013f-450e-b69a-0a44205e2ed2,pending_new,top3 asof 20260903
+2026-09-04,BUY,NEM,7,7b21fca5-0fae-4278-9a27-903d493a75c6,pending_new,top3 asof 20260903

@@ -1,23 +1,5 @@
 [
   {
-    "ticker": "NTAP",
-    "qty": 5,
-    "entry_date": "2026-08-28",
-    "exit_after": "2026-09-04"
-  },
-  {
-    "ticker": "IT",
-    "qty": 5,
-    "entry_date": "2026-08-28",
-    "exit_after": "2026-09-04"
-  },
-  {
-    "ticker": "GEV",
-    "qty": 1,
-    "entry_date": "2026-08-28",
-    "exit_after": "2026-09-04"
-  },
-  {
     "ticker": "PANW",
     "qty": 2,
     "entry_date": "2026-08-31",
@@ -88,5 +70,23 @@
     "qty": 2,
     "entry_date": "2026-09-03",
     "exit_after": "2026-09-10"
+  },
+  {
+    "ticker": "PANW",
+    "qty": 3,
+    "entry_date": "2026-09-04",
+    "exit_after": "2026-09-11"
+  },
+  {
+    "ticker": "ANET",
+    "qty": 5,
+    "entry_date": "2026-09-04",
+    "exit_after": "2026-09-11"
+  },
+  {
+    "ticker": "NEM",
+    "qty": 7,
+    "entry_date": "2026-09-04",
+    "exit_after": "2026-09-11"
   }
 ]

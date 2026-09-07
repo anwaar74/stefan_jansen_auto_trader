@@ -2,24 +2,6 @@
   {
     "ticker": "PANW",
     "qty": 2,
-    "entry_date": "2026-08-31",
-    "exit_after": "2026-09-07"
-  },
-  {
-    "ticker": "FTNT",
-    "qty": 6,
-    "entry_date": "2026-08-31",
-    "exit_after": "2026-09-07"
-  },
-  {
-    "ticker": "ANET",
-    "qty": 5,
-    "entry_date": "2026-08-31",
-    "exit_after": "2026-09-07"
-  },
-  {
-    "ticker": "PANW",
-    "qty": 2,
     "entry_date": "2026-09-01",
     "exit_after": "2026-09-08"
   },
@@ -88,5 +70,23 @@
     "qty": 7,
     "entry_date": "2026-09-04",
     "exit_after": "2026-09-11"
+  },
+  {
+    "ticker": "NOW",
+    "qty": 7,
+    "entry_date": "2026-09-07",
+    "exit_after": "2026-09-14"
+  },
+  {
+    "ticker": "CIEN",
+    "qty": 3,
+    "entry_date": "2026-09-07",
+    "exit_after": "2026-09-14"
+  },
+  {
+    "ticker": "CRWD",
+    "qty": 4,
+    "entry_date": "2026-09-07",
+    "exit_after": "2026-09-14"
   }
 ]

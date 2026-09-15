@@ -2,24 +2,6 @@
   {
     "ticker": "NOW",
     "qty": 7,
-    "entry_date": "2026-09-08",
-    "exit_after": "2026-09-15"
-  },
-  {
-    "ticker": "LULU",
-    "qty": 9,
-    "entry_date": "2026-09-08",
-    "exit_after": "2026-09-15"
-  },
-  {
-    "ticker": "CRM",
-    "qty": 3,
-    "entry_date": "2026-09-08",
-    "exit_after": "2026-09-15"
-  },
-  {
-    "ticker": "NOW",
-    "qty": 7,
     "entry_date": "2026-09-09",
     "exit_after": "2026-09-16"
   },
@@ -88,5 +70,23 @@
     "qty": 4,
     "entry_date": "2026-09-14",
     "exit_after": "2026-09-21"
+  },
+  {
+    "ticker": "GLW",
+    "qty": 6,
+    "entry_date": "2026-09-15",
+    "exit_after": "2026-09-22"
+  },
+  {
+    "ticker": "TER",
+    "qty": 3,
+    "entry_date": "2026-09-15",
+    "exit_after": "2026-09-22"
+  },
+  {
+    "ticker": "GDDY",
+    "qty": 9,
+    "entry_date": "2026-09-15",
+    "exit_after": "2026-09-22"
   }
 ]

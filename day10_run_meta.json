@@ -1,5 +1,5 @@
 {
-  "asof": "2026-09-14",
+  "asof": "2026-09-15",
   "staleness_days": 1,
   "stale": false,
   "variant": "beta_hedged",
@@ -38,16 +38,16 @@
     "BETA_WINDOW": "126"
   },
   "data_quality": {
-    "run": "2026-09-15 14:08:44.644147",
+    "run": "2026-09-16 14:00:48.299130",
     "hard_failures": [],
     "warnings": [
       "2498 rows with nonpositive prices (excluded by clean filter)",
       "5347 daily moves >|50%| \u2014 verify splits/corporate actions"
     ],
-    "rows": 2607649,
+    "rows": 2607859,
     "tickers": 1055,
     "date_min": "2008-06-02",
-    "date_max": "2026-09-14",
+    "date_max": "2026-09-15",
     "staleness_days": 1,
     "delisted_tickers": 752,
     "nonpositive_price_rows": 2498,

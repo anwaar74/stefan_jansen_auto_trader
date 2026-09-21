@@ -182,3 +182,6 @@ date,action,ticker,qty,order_id,status,note
 2026-09-18,BUY,GDDY,10,b47b0889-159e-45e9-a8b8-d010af85550a,pending_new,top3 asof 20260917
 2026-09-18,BUY,STX,1,a99d7a74-06f8-4a76-aa18-7fd7bf421cec,pending_new,top3 asof 20260917
 2026-09-18,BUY,VRT,4,4704853b-e50e-4c56-afe8-ad9a38a58eab,pending_new,top3 asof 20260917
+2026-09-21,SELL,IT,5,cdd053cc-0c9d-42c7-b256-04d22ff01d6e,pending_new,exit lot from 2026-09-14
+2026-09-21,SELL,PANW,3,2d6b56dd-7526-4f05-a7c4-2cf3f150c722,pending_new,exit lot from 2026-09-14
+2026-09-21,SELL,CRWD,4,19cace61-f829-406e-a75b-982c408dbd76,pending_new,exit lot from 2026-09-14

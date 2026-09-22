@@ -1,23 +1,5 @@
 [
   {
-    "ticker": "GLW",
-    "qty": 6,
-    "entry_date": "2026-09-15",
-    "exit_after": "2026-09-22"
-  },
-  {
-    "ticker": "TER",
-    "qty": 3,
-    "entry_date": "2026-09-15",
-    "exit_after": "2026-09-22"
-  },
-  {
-    "ticker": "GDDY",
-    "qty": 9,
-    "entry_date": "2026-09-15",
-    "exit_after": "2026-09-22"
-  },
-  {
     "ticker": "PANW",
     "qty": 2,
     "entry_date": "2026-09-16",
